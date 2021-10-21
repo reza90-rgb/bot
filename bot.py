@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 
 client = pymongo.MongoClient(
 	
-mongodb://sayang2:<password>@cluster0-shard-00-00.egme2.mongodb.net:27017,cluster0-shard-00-01.egme2.mongodb.net:27017,cluster0-shard-00-02.egme2.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-8ad228-shard-0&authSource=admin&retryWrites=true&w=majority)# MONGO DB LINK 
+mongodb://localhost:sayang2:sayang2:27017/pattern)# MONGO DB LINK 
 db = client.credit_cards
 
 developers = ['878216403']
