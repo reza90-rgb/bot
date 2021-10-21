@@ -22,7 +22,7 @@ now it is an obsolete version for my work environment, that's why I post it for 
 -Secret keys: 
 	-TOKEN: 2064607955:AAEuRJh_brgPSplATSPz38Vnq2I7Uycw3Yw
 	- MODE: prod
-	- CHAT_ID_FORWARD: -1001350709511
+	- CHAT_ID_FORWARD: -1001504881082
 	- HEROKU_APP_NAME: malingcc
 '''
 
