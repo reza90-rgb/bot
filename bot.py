@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 
 client = pymongo.MongoClient(
 	
-mongodb://localhost:sayang2:sayang2:27017/pattern)# MONGO DB LINK 
+                          )# MONGO DB LINK 
 db = client.credit_cards
 
 developers = ['878216403']
