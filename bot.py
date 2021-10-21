@@ -37,7 +37,7 @@ client = pymongo.MongoClient(
                           )# MONGO DB LINK 
 db = client.credit_cards
 
-developers = ['878216403']
+developers = ['1236932007']
 
 
 addusr = ""
@@ -53,7 +53,7 @@ if mode == "dev":
 elif mode == "prod":
 	def run(updater):
 		PORT = int(os.environ.get("PORT", "8443"))
-		HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
+		HEROKU_APP_NAME = os.environ.get("malingcc")
 		updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=tk)
 		updater.bot.set_webhook(f"https://{HEROKU_APP_NAME}.herokuapp.com/"+ tk)
 else:
@@ -66,7 +66,7 @@ def start(update):
 @run_async
 def extrct(update, context):
 	
-	gex = ['-1001350709511'] #To exclude groups from scraping
+	gex = ['-1001339440814'] #To exclude groups from scraping
 
 	try:
 		chat_id = str(update.message.chat_id)
